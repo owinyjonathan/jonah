@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+int num =15;
+int *ptr; 
+
+//output
+printf("value of num: %d\n",num);
+printf("address of num: %p\n",&num);
+printf("value via pointer: %d\n",ptr);
+
+return 0;
+}
